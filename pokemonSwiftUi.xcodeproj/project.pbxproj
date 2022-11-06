@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		10C743C129185F3900B9AFD9 /* pokemonSwiftUiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C743C029185F3900B9AFD9 /* pokemonSwiftUiApp.swift */; };
-		10C743C329185F3900B9AFD9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C743C229185F3900B9AFD9 /* ContentView.swift */; };
+		10C743C329185F3900B9AFD9 /* CreaturesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C743C229185F3900B9AFD9 /* CreaturesListView.swift */; };
 		10C743C529185F3A00B9AFD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10C743C429185F3A00B9AFD9 /* Assets.xcassets */; };
 		10C743C829185F3A00B9AFD9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10C743C729185F3A00B9AFD9 /* Preview Assets.xcassets */; };
+		10C743CF291866F300B9AFD9 /* CreaturesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C743CE291866F300B9AFD9 /* CreaturesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		10C743BD29185F3900B9AFD9 /* pokemonSwiftUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokemonSwiftUi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10C743C029185F3900B9AFD9 /* pokemonSwiftUiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokemonSwiftUiApp.swift; sourceTree = "<group>"; };
-		10C743C229185F3900B9AFD9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		10C743C229185F3900B9AFD9 /* CreaturesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreaturesListView.swift; sourceTree = "<group>"; };
 		10C743C429185F3A00B9AFD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10C743C729185F3A00B9AFD9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		10C743CE291866F300B9AFD9 /* CreaturesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreaturesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				10C743C029185F3900B9AFD9 /* pokemonSwiftUiApp.swift */,
-				10C743C229185F3900B9AFD9 /* ContentView.swift */,
+				10C743CE291866F300B9AFD9 /* CreaturesViewModel.swift */,
+				10C743C229185F3900B9AFD9 /* CreaturesListView.swift */,
 				10C743C429185F3A00B9AFD9 /* Assets.xcassets */,
 				10C743C629185F3A00B9AFD9 /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10C743C329185F3900B9AFD9 /* ContentView.swift in Sources */,
+				10C743CF291866F300B9AFD9 /* CreaturesViewModel.swift in Sources */,
+				10C743C329185F3900B9AFD9 /* CreaturesListView.swift in Sources */,
 				10C743C129185F3900B9AFD9 /* pokemonSwiftUiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
