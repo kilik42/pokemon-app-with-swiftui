@@ -8,14 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var creatures = ["pikachu", "squirtle","charzard"]
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack{
+            List(creatures, id: \.self){ creature in
+                Text(creature)
+                    .font(.title2)
+                
+            }
+            .listStyle(.plain)
         }
-        .padding()
     }
 }
 
