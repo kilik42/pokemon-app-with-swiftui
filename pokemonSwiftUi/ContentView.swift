@@ -12,12 +12,16 @@ struct ContentView: View {
     var creatures = ["pikachu", "squirtle","charzard"]
     var body: some View {
         NavigationStack{
-            List(creatures, id: \.self){ creature in
-                Text(creature)
-                    .font(.title2)
+            List(){
+                ForEach(creatures, id: \.self){creature in
+                    Text(creature)
+                        .font(.title2)
+                    
+                }
                 
             }
             .listStyle(.plain)
+            .navigationTitle("Pokemon")
         }
     }
 }
