@@ -9,20 +9,21 @@ import SwiftUI
 
 struct CreaturesListView: View {
     
-    var creatures = ["pikachu", "squirtle","charzard"]
+//    var creatures = ["pikachu", "squirtle","charzard"]
     @StateObject var creaturesVM = CreaturesViewModel()
     
     
     var body: some View {
         NavigationStack{
-            List(){
-                ForEach(creatures, id: \.self){creature in
-                    Text(creature)
-                        .font(.title2)
+            List(creaturesVM.creaturesArray, id: \.self, rowContent:{
+                 
+                    creature in
+                Text(creature.name)
                     
-                }
                 
-            }
+                
+            })
+            
             .listStyle(.plain)
             .navigationTitle("Pokemon")
         }

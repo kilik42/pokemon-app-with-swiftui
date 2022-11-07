@@ -17,7 +17,7 @@ class CreaturesViewModel: ObservableObject{
         var next: String
         var results: [Result]
     }
-    struct Result: Codable{
+    struct Result: Codable, Hashable{
         var name: String
         var url : String  //url for detail on Pokemon
     }
