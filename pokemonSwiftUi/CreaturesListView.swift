@@ -19,6 +19,7 @@ struct CreaturesListView: View {
                  
                     creature in
                 Text(creature.name)
+                    .font(.title2)
                     
                 
                 
