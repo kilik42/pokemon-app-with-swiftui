@@ -13,6 +13,7 @@
 		10C743C529185F3A00B9AFD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10C743C429185F3A00B9AFD9 /* Assets.xcassets */; };
 		10C743C829185F3A00B9AFD9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10C743C729185F3A00B9AFD9 /* Preview Assets.xcassets */; };
 		10C743CF291866F300B9AFD9 /* CreaturesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C743CE291866F300B9AFD9 /* CreaturesViewModel.swift */; };
+		10C8E5CA291B46220048421D /* Creature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8E5C9291B46220048421D /* Creature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		10C743C429185F3A00B9AFD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10C743C729185F3A00B9AFD9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		10C743CE291866F300B9AFD9 /* CreaturesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreaturesViewModel.swift; sourceTree = "<group>"; };
+		10C8E5C9291B46220048421D /* Creature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				10C743C029185F3900B9AFD9 /* pokemonSwiftUiApp.swift */,
 				10C743CE291866F300B9AFD9 /* CreaturesViewModel.swift */,
+				10C8E5C9291B46220048421D /* Creature.swift */,
 				10C743C229185F3900B9AFD9 /* CreaturesListView.swift */,
 				101B9363291970100074F2B1 /* DetailView.swift */,
 				10C743C429185F3A00B9AFD9 /* Assets.xcassets */,
@@ -146,6 +149,7 @@
 				10C743CF291866F300B9AFD9 /* CreaturesViewModel.swift in Sources */,
 				101B9364291970100074F2B1 /* DetailView.swift in Sources */,
 				10C743C329185F3900B9AFD9 /* CreaturesListView.swift in Sources */,
+				10C8E5CA291B46220048421D /* Creature.swift in Sources */,
 				10C743C129185F3900B9AFD9 /* pokemonSwiftUiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

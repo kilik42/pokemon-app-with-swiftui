@@ -31,7 +31,7 @@ struct DetailView: View {
                     .shadow(radius: 8, x:5, y:5)
                     .overlay{
                         RoundedRectangle(cornerRadius: 16)
-                            .stroke(.gray.opacity(0.5))
+                            .stroke(.gray.opacity(0.5 ))
                     }
             }
             
